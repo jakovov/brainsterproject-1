@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 2</title>
+  <link rel="stylesheet" href="style.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#" id="logofront"><img class="imglogo" src="brainster_space_logo.svg" alt="" height="60px" /></a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#spaceblog" class="aborder3"><strong>SPACE БЛОГ</strong></a></li>
+          <li><a href="#nastani" class="aborder4"><strong>НАСТАНИ</strong></a></li>
+          <li><a href=""><strong>CO-WORKING</strong></a></li>
+          <li><a href="#akademii" class="aborder"><strong>АКАДЕМИИ</strong></a></li>
+          <li><a href="#prostorzanastani" class="aborder2"><strong>ПРОСТОР ЗА НАСТАНИ</strong></a></li>
+          <li><a href=""><strong>ПАРТНЕРСТВА</strong></a></li>
+        </ul>
+        </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="btn button1" role="button" data-toggle="modal" data-target="#myModal"><strong
+                class="textnavbarbutton">+ &nbsp; ПРИКЛУЧИ СЕ</strong></a></li>
+        </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="frontimg">
+    <h1 id="brainsterlabs"><strong>Центар за Учење, Кариера и <br> Иновација</strong></h1>
+  </div>
+  <div class="container frontpage">
+    <div id="section2">
+
+      <h1 id="zanas" style="color: black;"><strong>За Нас</strong></h1>
+    </div>
+    <div class="cards">
+      <div class="cards1">
+      </div>
+
+    </div>
+    <div class="secondsection">
+      <div class="firstside col-md-5">
+        <h1><strong style="font-size: 50px; color: black;">Едукација</strong></h1>
+        <p class="ptekts" style="text-align: left; font-size: 16px;">Дали си подготвен да одговориш на потребитет на
+          иднината. Вистинските курсеви, академии и семинари кои ќе ти овозможат кариерна трансформација во областа
+          дигитален маркетинг, дизајн, програмирање и Data Science.</p>
+        <a class=" button1 edubutton" role="button"><strong class="textbtn">АКАДЕМИИ</strong></a>
+        <a class=" button2 companybutton" role="button"><strong class="textbtn">ЗА КОМПАНИИ</strong></a>
+      </div>
+      <div class="secondside col-md-7"><img id="companyimg" src="images/Za_Nas/edukacija1.jpg" alt="" width="100%"
+          height="500px"></div>
+    </div>
+    <div id="section22">
+
+      <h1 id="zanas"><strong>Настани</strong></h1>
+    </div>
+    <div class="cards">
+      <div class="cards3">
+      </div>
+      <div class="cards2"></div>
+
+    </div>
+    <div class="row edu col-md-12">
+      <div class="calendarbutton">
+        <a href="forma.html" class="calendarbtn" role="button"><strong class="textbtn"><span
+              class="glyphicon glyphicon-calendar"></span>&nbsp;КАЛЕНДАР ЗА НАСТАНИ</strong></a>
+      </div>
+    </div>
+
+    <div class="row edu col-md-12">
+      <div class="secondside col-md-7"><img src="images/Za_Nas/coworking.jpg" alt="" width="100%" height="500px"></div>
+
+      <div class="firstside col-md-5">
+        <div class="soldout">
+          <p id="soldout"><strong>SOLD OUT</strong></p>
+        </div>
+
+        <h1><strong style="font-size: 50px; color: black; text-decoration: line-through;">Coworking</strong></h1>
+        <p class="ptekts" style="text-align: left; font-size: 16px; text-decoration: line-through;">Биди дел од tech
+          заедницата на иноватори, креативци и приетприемачи. Резервирај стол во нашата shared office. Пичирај го твојот
+          бизнис и нашиот тим заедно ќе одлучи секој месец со кого да ги дели своите канцеларии.</p>
+        <a class="reservespot" role="button"><strong class="textbtn" style="text-decoration: line-through;">Резервирај
+            место</strong></a>
+        <div class="popup">
+          <span class="popuptext" id="myPopup">Местата се распродадени</span>
+        </div>
+
+      </div>
+    </div>
+    <div class="row edu col-md-12">
+      <div class="firstside col-md-5">
+        <h1><strong style="font-size: 50px; color: black;">Простор за <br> настани</strong></h1>
+        <p class="ptekts" style="text-align: left; font-size: 16px;">Можност за презентации, обуки, конференции,
+          networking натсани. Одбери ја просторијата која најмногу ќе одговара на твојата идеја. Го задржуваме правото
+          да одбереме кој настан ќе се организира во нашиот Brainster Space.</p>
+        <a href="#prostorzanastani" class="eventspace checkprostor1" role="button"><strong class="textbtn"><i
+              class="fa fa-arrow-right"></i>Види го просторот</strong></a>
+      </div>
+      <div class="secondside col-md-7"><img src="images/Za_Nas/prostorzanastani.jpg" alt="" width="100%" height="500px">
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row beforeftr frontpage">
+    <h1 style="color: black; font-size: 50px;"><strong>Партнери</strong></h1>
+    <h2 class="ptekts" style="color: black;"><strong>Имаш идеја? Отворени сме за соработка</strong></h2>
+    <a href="#prostorzanastani" class="spacebtn checkprostor1" role="button"><strong class="textbtn"><i
+          class="fa fa-arrow-right"></i>Види го просторот</strong></a>
+  </div>
+
+  <div class="container akademii">
+    <div class="row edu edunastanacademii col-md-12">
+      <div class="firstsideacademii col-md-5">
+        <h1><strong style="font-size: 50px; color: black;">Академии</strong></h1>
+        <p class="ptekts" style="text-align: left; font-size: 16px;">Нашите академии ќе ти помогнат да ги совладиш
+          најбараните вештини на денешницата преку интерактивна настава и практична работа на реални проекти.</p>
+        <p class="ptekts" style="text-align: left; font-size: 16px;">Инструкторите кои се докажани експерти во својата
+          област. Преку нив имаш можност да ги научиш и предвидиш предизвиците на иднината на работите и да се поврзеш
+          со сегашните и идните врвни професионалци и компании.</p>
+        <p class="ptekts" style="text-align: left; font-size: 16px;">Академиите ќе ти го отворат патот кон кариера каква
+          и да посакуваш</p>
+      </div>
+      <div class="secondsideacademii col-md-7"></div>
+    </div>
+    <div class="row ">
+      <div class="cards4 ">
+      </div>
+
+    </div>
+  </div>
+  <div class="container prostorzanastani">
+    <div class="row edu eduprostorzanastani col-md-12">
+      <div class="firstsideakademii col-md-4">
+        <h1><strong style="font-size: 50px; color: black;">Простор за <br> настани</strong></h1>
+        <p class="ptekts" style="text-align: left; font-size: 16px;">Нашиот простор се прилагодува според потребите на
+          вашиот настан. Седум различни простори и Space Kitchen. <br><br> Наменски создадени да се прилагодуваат и
+          менуваат во согласност со типот на настан кој го организирате. <br> <br> Организираме конференции до 150
+          ученици и обуки и предавања за групи од 20 ученици. Контактирај не за да ви хостираме одличен настан.</p>
+        <a class="eventspace bukirajne" role="button"><strong class="textbtn"><i
+              class="glyphicon glyphicon-plus"></i>БУКИРАЈ НЕ</strong></a>
+      </div>
+      <div class="secondsidenastani col-md-8"><img src="images/Za_Nas/prostorzanastani.jpg" alt="" width="100%"
+          height="500px"></div>
+    </div>
+
+    <div class="row edu eduprostorzanastani col-md-12">
+      <div class="firstsideakademii col-md-3">
+        <h1><strong style="font-size: 50px; color: black;">Нашите <br> простори</strong></h1>
+        <p class="ptekts" style="text-align: left; font-size: 16px;">Комплетно адаптибилни. Една сала за 150 ученици или
+          три помали сали за групи од по 50 учесника. Училници за од 25 до 40 учесника. Избор и од две локации. <br>
+          <br> Пулт за прием. И најважното место за networking-Brainster Kitchen. <br> <br> Како го замислувате вашиот
+          следен настан?</p>
+
+      </div>
+      <div class="secondsidenastani col-md-9">
+        <div class="col-md-4">
+          <div class="hehe"><img id="imgkitchen" src="images/Renderi/2.jpg" width="100%" alt="">
+            <h4><strong>Brainster</strong></h4>
+          </div>
+          <div class="hehe"><img id="imgkitchen" src="images/Renderi/C3 1.jpg" width="100%" alt="">
+            <h4><strong>Адаптибилна училница</strong></h4>
+          </div>
+          <div class="hehe"><img id="imgkitchen" src="images/Renderi/HOL KON SEDENJE.jpg" width="100%" alt="">
+            <h4><strong>Хол</strong></h4>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="hehe"><img id="imgkitchen" src="images/Renderi/C3 EXIBITION_1.jpg" width="100%" alt="">
+            <h4><strong>Конференциска сала</strong></h4>
+          </div>
+          <div class="hehe"><img id="imgkitchen" src="images/Renderi/C2 1.jpg" width="100%" alt="">
+            <h4><strong>Училница</strong></h4>
+          </div>
+          <div class="hehe"><img id="imgkitchen" src="images/Renderi/C1 4.jpg" width="100%" alt="">
+            <h4><strong>Канцелариски простор</strong></h4>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="hehe"><img id="imgkitchen" src="images/Renderi/C3 2.jpg" width="100%" alt="">
+            <h4><strong>Сала со бина</strong></h4>
+          </div>
+          <div class="hehe"><img id="imgkitchen" src="images/Renderi/C1 1.jpg" width="100%" alt="">
+            <h4><strong>Училница</strong></h4>
+          </div>
+          <div class="hehe"><img id="imgkitchen" src="images/Renderi/KITCHEN_03.jpg" width="100%" alt="">
+            <h4><strong>Space Kitchen</strong></h4>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="row edu col-md-12">
+      <div class="row secondside slik col-md-8">
+        <div class="half col-md-6">
+          <img src="images/Space_Kitchen_Galerija/IMG_7777.jpg" alt="" width="408px">
+          <div class="imagecook2">
+            <div class="imgcooks1"><img src="images/Space_Kitchen_Galerija/IMG_7385.jpg" alt="" width="100%"
+                height="100%"></div>
+            <div class="imgcooks2"><img src="images/Space_Kitchen_Galerija/IMG_7361.jpg" alt="" width="100%"></div>
+          </div>
+
+        </div>
+        <div class="half col-md-6">
+          <img src="images/Space_Kitchen_Galerija/IMG_7362.jpg" alt="" width="430px" height="408px">
+        </div>
+      </div>
+
+      <div class="firstside col-md-4">
+        <h1><strong style="font-size: 50px; color: black;">Space Kitchen</strong></h1>
+        <p class="ptekts" style="text-align: left; font-size: 16px;">Место каде сите настани започнуваат и завршуваат.
+          Место каде нашиот тим готви и експериментира. Нашата кујна има само едно правило. <br> <br> Храната мора да
+          биде вегетаријанска. Пијалок, кафе или мезе. Вие одберете вид на катеринг ние ќе го обезбедиме.</p>
+
+      </div>
+    </div>
+
+    <div id="nudime" class="row edu eduprostorzanastani col-md-12">
+
+      <div id="nudimeBtns">
+      </div>
+    </div>
+    <div class="row edu eventhost eduprostorzanastani col-md-12">
+      <div class="firstsideakademii col-md-7">
+        <h1><strong style="font-size: 60px; color: black;">Event Host</strong></h1>
+        <h1 class="ptekts" style="text-align: left; font-size: 25px; color: black;"><strong>Ања Макеска <br> <br>
+            anja@brainster.co <br><br> +389 (0)70 233 414</strong></h1>
+      </div>
+      <div class="secondsidenastani col-md-5"><img src="images/girl.jpg" alt="" width="100%" height="800px"></div>
+    </div>
+  </div>
+
+  </div>
+  <div class="container spaceblog">
+    <div class="col-md-12">
+      <div class="col-md-8">
+        <nav class="navbar navbar-default" style="background-color:rgb(245, 245, 245); font-size: 12px;">
+          <ul class="nav navbar-nav projects-nav">
+            <li><a><strong>ФИЛТРИРАЈ</strong></a></li>
+            <li onclick="setActive('СИТЕ', this)" class="filtercard activefilter"><a><strong>СИТЕ</strong></a></li>
+            <li onclick="setActive('КАРИЕРА', this)" class="filtercard"><a><strong>КАРИЕРА</strong></a></li>
+            <li onclick="setActive('ТЕХНОЛОГИЈА', this)" class="filtercard"><a><strong>ТЕХНОЛОГИЈА</strong></a></li>
+            <li onclick="setActive('DATA SCIENCE', this)" class="filtercard"><a><strong>DATA SCIENCE</strong></a></li>
+            <li onclick="setActive('МАРКЕТИНГ', this)" class="filtercard"><a><strong>МАРКЕТИНГ</strong></a></li>
+            <li onclick="setActive('ДИЗАЈН', this)" class="filtercard"><a><strong>ДИЗАЈН</strong></a></li>
+            <li onclick="setActive('IMPACT', this)" class="filtercard"><a><strong>IMPACT</strong></a></li>
+            <li><a
+                href="https://medium.com/wearelaika/brainster-space-the- New-home-of-the-local-tech-community- In-skopje-ffe97b564152 "><strong>#SpaceFamily</strong></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+  </div>
+  <div class="container-fluid spaceblog">
+    <div class="col-md-12 frontcarousel">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox" style="width:100%; height: 600px !important;">
+          <div class="item active blackcover">
+            <img src="images/Space_Blog_Kartici/prva.jpg" alt="...">
+            <div class="carousel-caption" style="text-align: left;">
+              <span class=" button2 testtest" style="border-radius: 20%;" role="button"><strong
+                  class="textbtn">КАРИЕРА</strong></span>
+              <h1 style="font-size: 50px;"><strong>Dive семинари кои ќе овозможуваат брз кариерен напредок</strong></h1>
+              <p style="font-size: 15px;">Нов продукт од Brainster во Brainster Space. Интезивни дводневни семинари кои
+                ќе ти помогнат од Mid level брзо да го постигниш твојот Senior напредок</p>
+              <span class=" button10 testtest" style="float: left;" role="button"><strong class="textbtn">Дознај
+                  повеќе</strong></span>
+            </div>
+          </div>
+          <div class="item blackcover">
+            <img src="images/Space_Blog_Kartici/vtora.jpg" alt="...">
+            <div class="carousel-caption" style="text-align: left;">
+              <span class=" button2 testtest" style="border-radius: 20%;" role="button"><strong
+                  class="textbtn">КАРИЕРА</strong></span>
+              <h1 style="font-size: 50px;"><strong>Ако не те бива за програмирање дали можеш да имаш кариера во
+                  Tech</strong></h1>
+              <p style="font-size: 15px;">Tech индустријата е најпосакуваната област за работа, заради големата
+                побарувачка, секојдневните промени и големиот инкам.</p>
+            </div>
+          </div>
+          <div class="item blackcover">
+            <img src="images/Space_Blog_Kartici/treta.jpg" alt="...">
+            <div class="carousel-caption" style="text-align: left;">
+              <span class=" button2 testtest" style="border-radius: 20%;" role="button"><strong
+                  class="textbtn">ТЕХНОЛОГИЈА</strong></span>
+              <h1 style="font-size: 50px;"><strong>Што значи денес, твојата канцеларија да е смарт?</strong></h1>
+              <p style="font-size: 15px;">На отварањето на Brainster Space, добивме супер подарок- smart home уред.
+                Голем дел од нас беа збунети за тоа што се можеме да добиеме со него.</p>
+            </div>
+          </div>
+          <div class="item blackcover">
+            <img src="images/Space_Blog_Kartici/cetvrta.jpeg" alt="...">
+            <div class="carousel-caption" style="text-align: left;">
+              <span class=" button2 testtest" style="border-radius: 20%;" role="button"><strong class="textbtn">DATA
+                  SCIENCE</strong></span>
+              <h1 style="font-size: 50px;"><strong>Како до кариера во Data Science?</strong></h1>
+              <p style="font-size: 15px;">Од искуството на студентите на нашата академија, решивме да ви помогнеме со
+                неколку tips за потребните skills за да започнете да работите во Data Science.</p>
+            </div>
+          </div>
+          <div class="item blackcover">
+            <img src="images/Space_Blog_Kartici/peta.jpg" alt="...">
+            <div class="carousel-caption" style="text-align: left;">
+              <span class=" button2 testtest" style="border-radius: 20%;" role="button"><strong
+                  class="textbtn">МАРКЕТИНГ</strong></span>
+              <h1 style="font-size: 50px;"><strong>Интервју со Николај Ванчев, арт директор во Tank, Estonia.
+                  #SpaceFamily</strong></h1>
+              <p style="font-size: 15px;">Николај Ванчев е Creative director во TANK (Естонија). Неговата успешна 12
+                годишна кариера како арт директор тој ја гради во реномирани агенции...</p>
+            </div>
+          </div>
+          <div class="item blackcover">
+            <img src="images/Space_Blog_Kartici/shesta.jpg" alt="...">
+            <div class="carousel-caption" style="text-align: left;">
+              <span class=" button2 testtest" style="border-radius: 20%;" role="button"><strong
+                  class="textbtn">ДИЗАЈН</strong></span>
+              <h1 style="font-size: 50px;"><strong>Зошто дизајн, најкратко со Дијана Димитриевска #SpaceFamily</strong>
+              </h1>
+              <p style="font-size: 15px;">Интервју со Дијана Димитриевска, графички дизајнер, DJ и инструктор на
+                Академијата за графички дизајн во Brainster.</p>
+            </div>
+          </div>
+          <div class="item blackcover">
+            <img src="images/Space_Blog_Kartici/sedma.jpg" alt="...">
+            <div class="carousel-caption" style="text-align: left;">
+              <span class=" button2 testtest" style="border-radius: 20%;" role="button"><strong
+                  class="textbtn">ДИЗАЈН</strong></span>
+              <h1 style="font-size: 50px;"><strong>Што е потребен за добар мобилен дизајн</strong></h1>
+              <p style="font-size: 15px;">UX/UI дизајнерите се дигитални продукт дизајнери. Нивната задача е да создадат
+                корисен, релевантен и едноставен за корисниците продукт.</p>
+            </div>
+          </div>
+          <div class="item blackcover">
+            <img src="images/Space_Blog_Kartici/osma.jpg" alt="...">
+            <div class="carousel-caption" style="text-align: left;">
+              <span class=" button2 testtest" style="border-radius: 20%;" role="button"><strong
+                  class="textbtn">IMPACT</strong></span>
+              <h1 style="font-size: 50px;"><strong>Македонско-американската компанија Upshift доби инвестиција од 3.7
+                  милиони...</strong></h1>
+              <p style="font-size: 15px;">Од-дименд платформата за работа се шири со нова рунда финансирање предводена
+                од Recruit која е најголемата HR Tech компанија во светот..</p>
+            </div>
+          </div>
+          <div class="item blackcover">
+            <img src="images/Space_Blog_Kartici/devetta.jpg" alt="...">
+            <div class="carousel-caption" style="text-align: left;">
+              <span class=" button2 testtest" style="border-radius: 20%;" role="button"><strong
+                  class="textbtn">IMPACT</strong></span>
+              <h1 style="font-size: 50px;"><strong>Локалната апликација Challenger и нејзиниот импакт.
+                  #SpaceFamily</strong></h1>
+              <p style="font-size: 15px;">Мисијата на Challenger e до создавање општествено одговорна заедница која
+                создава позитивна промена преку развивање на подобри индивидуални навики...</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="whichwhich">
+          <span class="whichslide" style="font-size: 25px; color: rgb(234, 195, 46);">1</span>
+        </div>
+        <div class="controls">
+          <a a href="#carousel-example-generic" role="button" class="nextnext" data-slide="next">
+            <p class="farp"><i class="far fa-arrow-alt-circle-right"
+                style=" color: white; font-size:60px; float:right; margin-right:15px;"></i></p>
+          </a>
+          <a href="#carousel-example-generic" role="button" class="prevprev" data-slide="prev">
+            <p class="farp"><i class="far fa-arrow-alt-circle-left"
+                style="color: white; font-size:60px; float:right; margin-right:15px;"></i></p>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container spaceblog">
+    <div class="cards spaceblogcards">
+      <div class="cards5">
+      </div>
+    </div>
+  </div>
+  <div class="container nastani">
+
+    <div id="calendar">
+      <div class="calendar-controls">
+        <h1 style="  padding-right: 1000px; font-size: 40px; float: left;"><strong>КАЛЕНДАР</strong></h1>
+        <a id="prevBtn">
+          <p class="farp"><i class="far fa-arrow-alt-circle-left" style="color: black; font-size:60px;"></i></p>
+        </a>
+        <div id="montyAndYear">Mart 2020</div>
+        <a id="nextBtn">
+          <p class="farp"><i class="far fa-arrow-alt-circle-right" style="color: black; font-size:60px;"></i></p>
+        </a>
+      </div>
+
+      <div class="calendar-header">
+        <div class="header-cell">НЕД</div>
+        <div class="header-cell">ПОН</div>
+        <div class="header-cell">ВТО</div>
+        <div class="header-cell">СРЕ</div>
+        <div class="header-cell">ЧЕТ</div>
+        <div class="header-cell">ПЕТ</div>
+        <div class="header-cell">САБ</div>
+      </div>
+
+      <div id="calendar-body">
+      </div>
+    </div>
+
+  </div>
+  <div class="row linkscolor">
+
+    <div class="almostfooter col-md-12">
+      <div class="first col-md-3">
+        <h3>Корисни Линкови</h3>
+        <p><strong>Контакт</strong></p>
+        <a href="wearelaika.com ">
+          <p><strong>Отворени позиции</strong></p>
+        </a>
+        <a
+          href="https://medium.com/wearelaika/brainster-space-the-new-home-of-the-local-tech-community-in-skopje-ffe97b564152">
+          <p><strong>Галерија</strong></p>
+        </a>
+        <p><strong>Календар</strong></p>
+      </div>
+      <div class="second col-md-3">
+        <h3>Социјални Мрежи</h3>
+        <i class="fa fa-facebook-official" style="font-size:48px;color:rgb(59, 89, 152); border-radius: 100%;"></i>
+        <i class="fa fa-linkedin-square" style="font-size:48px;color:rgb(14, 118, 168)"></i>
+        <i class="fa fa-instagram" style="font-size:48px;color:rgb(193, 53, 132)"></i>
+      </div>
+      <div class="logofoot col-md-5">
+        <a href="#" id="logoend"><img class="imglogo" src="brainster_space_logo.svg" alt="" height="80px" /></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" id="footer">
+    <h5 id="footertext"><strong>COPYRIGHT©BrainsterSpace. All Rights Reserved</strong></h5>
+  </div>
+  <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+              class="glyphicon glyphicon-remove-circle " style="font-size: 25px; color: black;"></span></button>
+          <h2 class="modal-title">Приклучи се</h4>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="exampleInputName1">Име и презиме:</label>
+            <input type="name" class="form-control input-lg" id="exampleInputName1" placeholder="Вашето име и презиме"
+              style="font-style:italic" required>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Контакт и-мејл:</label>
+            <input type="email" class="form-control input-lg" id="exampleInputEmail1" placeholder="Вашиот и-мејл"
+              style="font-style:italic" required>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn button1">Приклучи се</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
